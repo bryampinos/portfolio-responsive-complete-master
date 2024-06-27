@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Portafolio Andres Pinos</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo"><i class='bx bx-code-alt'></i>Andres </a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sobre Mi</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Proyectos</a>
+            </li>
+           
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hola,<br />Soy <span class="home__title-color">Andres</span><br />
+           Ing en Software
+          </h1>
+
+          <a href="assets/CV Bryam Andres Pinos Chaca.pdf" download="CV ANDRES PINOS" class="button">DESCARGAR CV COMPLETO
+          </a>
+        </div>
+
+        <div class="home__social">
+          <a onclick="window.location.href='https://www.linkedin.com/in/andrespinos30'" class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          
+          <a onclick="window.location.href='https://github.com/bryampinos'" class="home__social-icon"><i class="bx bxl-github"></i></a>
+        </div>
+
+        <div class="home__img">
+          <svg
+            class="home__blob"
+            viewBox="0 0 479 467"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+              <image
+                class="home__blob-img"
+                x="50"
+                y="60"
+                href="assets/img/sin fondo.png"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">Sobre Mi</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/foto-removebg-preview.png" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">¿Quien Soy?</h2>
+            <p class="about__text">
+              ¡Hola! Soy Andres Pinos, un apasionado ingeniero en software con  experiencia en el desarrollo 
+              de aplicaciones web en su backend como en su frontend. Mi objetivo principal es crear soluciones tecnológicas innovadoras 
+              que mejoren la vida de las personas y optimicen los procesos empresariales.
+A lo largo de mi carrera, he trabajado en diversos proyectos, pequeños startups siempre enfocándome 
+en la calidad del código, la eficiencia y la escalabilidad. 
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Habilidades Profesionales</h2>
+            <p class="skills__text">
+              En el camino de mi vida, he podido adquirir conocimientos en diferentes tecnologias, ya que he podido 
+              desarrollar productos de acuerdo a las necesidades del cliente, de la misma forma he aprendido como
+              complacer esas necesidades, a continuacion indico cuales son los lenguajes de programacion que manejo, ademas, 
+              las tecnologias que tambien domino.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxl-java skills__icon'></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVA</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxl-php skills__icon' ></i>
+                <span class="skills__name">PHP</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxl-html5 skills__icon' ></i>
+                <i class='bx bxl-css3 skills__icon' ></i>
+                <span class="skills__name">HTML    CSS</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <h2 class="skills__subtitle">OTRAS TECNOLOGIAS </h2>
+
+            <div class="skills__subtitle">
+              <ul>
+                <li><i class='bx bxl-nodejs bx-tada skills__icon'></i>NODEJS</li>
+                <li><i class='bx bx-data bx-tada skills__icon' ></i>BASES DE DATOS SQL</li>
+                <li><i class='bx bxl-angular bx-tada skills__icon' ></i>ANGULAR</li>
+                <li><i class='bx bxl-spring-boot bx-tada skills__icon' ></i>SPRING-BOOT</li>
+                <li><i class='bx bxl-git bx-tada skills__icon' ></i>GIT</li>
+                <li><i class='bx bxl-bootstrap bx-tada skills__icon' ></i>BOOTSTRAP</li>
+            </ul>
+            </div>  
+
+          </div>
+
+          <div>
+            <img src="assets/img/work3.jpg" alt="" class="skills__img" />
+
+            
+          </div>
+          
+
+       
+          
+          
+        </div>
+
+
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">PROYECTOS</h2>
+
+        <div class="work__container bd-grid">
+          <a onclick="window.location.href='https://password-generator-gold-kappa.vercel.app/'"  class="work__img">
+            <img src="assets/img/GENERADOR DE CONTRASEÑAS.png" alt="" />
+           
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work2.jpg" alt="" />
+
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work3.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work4.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work5.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work6.jpg" alt="" />
+          </a>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">CONTACTOS</p>
+      <div class="footer__social">
+        <p class="footer__copy">Telefono : +593 986561526</p>
+        <p class="footer__copy">Correo : bryampinos30@gmail.com</p>
+        <BR></BR>
+        <p class="footer__copy">Pagina realizada con HTML, CSS Y JAVASCRIPT</p>
+   
+      </div>
+      <p class="footer__copy">&#169; All rigths reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
